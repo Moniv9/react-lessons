@@ -24,12 +24,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'lesson1')));
-app.use(express.static(path.join(__dirname, 'lesson2')));
-app.use(express.static(path.join(__dirname, 'lesson3')));
-app.use(express.static(path.join(__dirname, 'lesson4')));
-app.use(express.static(path.join(__dirname, 'lesson5')));
-app.use(express.static(path.join(__dirname, 'lesson6')));
+app.use(express.static(path.join(__dirname, 'lessons')));
 
 app.use('/', routes);
 
@@ -46,6 +41,7 @@ app.use(function(req, res, next) {
 // will print stacktrace
 if (app.get('env') === 'development') {
     app.use(function(err, req, res, next) {
+        console.log(err);
         res.status(err.status || 500);
         res.render('error', {
             message: err.message,
@@ -57,6 +53,7 @@ if (app.get('env') === 'development') {
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
+    console.log(err);
     res.status(err.status || 500);
     res.render('error', {
         message: err.message,
