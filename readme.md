@@ -178,7 +178,7 @@ Points:
 
 1.  Although this will show '5' on screen, but you will get warning on console.
 
-[Image: https://quip.com/-/blob/LfbAAAKVWRi/YYQuZv3-2kHfmCWhFze51A]
+![Error screenshot](https://raw.githubusercontent.com/Moniv9/react-lessons/master/images/1.png)
 
 
 ## Lesson 5
