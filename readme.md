@@ -4,9 +4,9 @@ A javascript library for creating maintainable, reusable & fast user interfaces.
 
 ## Why react js?
 
-a. Easy to implement in existing project.
-b. Rendering is fast because of virtual dom concept.
-c. React implements one way data flow which reduces boilerplate.
+* Easy to implement in existing project.
+* Rendering is fast because of virtual dom concept.
+* React implements one way data flow which reduces boilerplate.
 
 and you can know a lot more by visiting  https://facebook.github.io/react/
 
