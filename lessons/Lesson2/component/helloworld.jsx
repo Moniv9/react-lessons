@@ -11,4 +11,6 @@ var HelloWorld = React.createClass({
     }
 });
 
-ReactDOM.render(<HelloWorld value='hello world'/>, document.getElementById('container'));
+(new HelloWorld({})).render();
+
+//ReactDOM.render(<HelloWorld value='hello world'/>, document.getElementById('container'));

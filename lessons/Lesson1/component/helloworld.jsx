@@ -1,15 +1,9 @@
 var HelloWorld = React.createClass({
-    getDefaultProps: function () {
-        return {
-            value: "default hello world"
-        }
-    },
 
     render: function () {
-        return (<div>{this.props.value}</div>);
+        return (<div>Hello World</div>);
 
     }
 });
 
-ReactDOM.render(<HelloWorld value='hello world'/>, document.getElementById('container'));
-
+ReactDOM.render(<HelloWorld/>, document.getElementById('container'));

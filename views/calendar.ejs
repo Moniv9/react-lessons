@@ -1,0 +1,161 @@
+<html>
+
+<head>
+    <title>
+        <%=title%>
+    </title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <style>
+            {
+            box-sizing: border-box;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        body {
+            font-family: Verdana, sans-serif;
+        }
+        
+        .month {
+            padding: 70px 0px;
+            width: 100%;
+            background: #5993db;
+            margin-top: 5px;
+        }
+        
+        .month ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .month ul li {
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .month .prev {
+            float: left;
+            padding-top: 10px;
+            padding-left: 20px;
+            cursor: pointer;
+        }
+        
+        .month .next {
+            float: right;
+            padding-top: 10px;
+            padding-right: 20px;
+            cursor: pointer;
+        }
+        
+        .weekdays {
+            margin: 0;
+            padding: 10px 0;
+            background-color: #ddd;
+        }
+        
+        .weekdays li {
+            display: inline-block;
+            width: 13.6%;
+            color: #666;
+            text-align: center;
+        }
+        
+        .days {
+            padding: 10px 0;
+            background: #eee;
+            margin: 0;
+        }
+        
+        .days li {
+            list-style-type: none;
+            display: inline-block;
+            width: 13.6%;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #777;
+        }
+        
+        .days li .active {
+            padding: 5px;
+            background: #1abc9c;
+            color: white !important
+        }
+        
+        .monthname {
+            text-align: center
+        }
+        
+        .yearname {
+            font-size: 18px;
+        }
+        
+        ,
+        .dropdown {
+            display: inline-block;
+            cursor: pointer;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            cursor: pointer;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .small {
+            width: 300px;
+        }
+        
+        .pointer {
+            cursor: pointer;
+            font-size: 13px;
+        }
+        
+        @media screen and (max-width:720px) {
+            .weekdays li,
+            .days li {
+                width: 13.1%;
+            }
+        }
+        
+        @media screen and (max-width: 420px) {
+            .weekdays li,
+            .days li {
+                width: 12.5%;
+            }
+            .days li .active {
+                padding: 2px;
+            }
+        }
+        
+        @media screen and (max-width: 290px) {
+            .weekdays li,
+            .days li {
+                width: 12.2%;
+            }
+    </style>
+</head>
+
+<body>
+    <div id='calendar'></div>
+</body>
+
+</html>
+
+<script src="/javascripts/react.js" type="text/javascript"></script>
+<script src="/javascripts/react_dom.js" type="text/javascript"></script>
+<script src="/javascripts/babel.js"></script>
+<script src="/Lesson9/component/calendar.jsx" type="text/babel"></script>

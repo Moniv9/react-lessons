@@ -43,7 +43,7 @@ var AppForm = React.createClass({
                 <button>Submit</button><br/>
                 <label>{this.state.msg}</label>
             </form>
-        );
+        ); b
 
     }
 });
