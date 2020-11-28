@@ -12,7 +12,8 @@ tilt and pressure sensitivity, and support for palm rejection. Incredibly easy t
 <br/>
 <br/>
 
-![image](https://user-images.githubusercontent.com/2913633/100517096-5d0aee00-31ae-11eb-8211-0055cd7fe3da.png)
+![image](https://user-images.githubusercontent.com/2913633/100517513-f804c780-31b0-11eb-9fe9-6c3dcd22b43c.png)
+
 
 
 
