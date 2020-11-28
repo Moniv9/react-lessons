@@ -1,14 +1,9 @@
 ### Attach Event Listeners
 
-```typescript
-const element = document.getElementById('container');
-const handler = () => {
-  console.log('element was clicked');
-};
+![image](https://user-images.githubusercontent.com/2913633/100517377-2d5ce580-31b0-11eb-8cf6-541ff7a0334f.png)
 
-element.addEventListener('click', handler);
-
-```
+<br/>
+<br/>
 
 Apple Pencil sets the standard for how drawing, note‑taking, and marking up documents should 
 feel — intuitive, precise, and magical. All with imperceptible lag, pixel‑perfect precision, 
@@ -17,5 +12,7 @@ tilt and pressure sensitivity, and support for palm rejection. Incredibly easy t
 <br/>
 <br/>
 
-![image](https://user-images.githubusercontent.com/2913633/100517013-c0485080-31ad-11eb-9ec9-998598c9ac16.png)
+![image](https://user-images.githubusercontent.com/2913633/100517096-5d0aee00-31ae-11eb-8211-0055cd7fe3da.png)
+
+
 
